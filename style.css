@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: hsla(0, 0%, 0%, 1);
+  background: -moz-linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(125, 100%, 8%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(125, 100%, 8%, 1) 100%);
+  background: linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(125, 100%, 8%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#002703", GradientType=1 );
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 18px;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+#main-title {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+.hero-section {
+  padding: 40px;
+}
+
+h3, p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.proof-card {
+  border: 2px solid aqua;
+  padding: 20px;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  color: aquamarine;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ebook-title {
+  color: white;
+  padding-top: 2rem;
+  font-size: 18px;
+  margin: 3px;
+}
+
+.learning-content, .learning-section, .ebook-details {
+  color: white;
+}
+
+.learning-content > h2 {
+  padding-bottom: 18px;
+  color: aqua;
+}
+
+.learning-content > p {
+  line-height: 20px;
+ 
+}
+
+.ebook-details > .ebook-title {
+  padding-bottom: 10px;
+}
+
+.ebook-text > p {
+  line-height: 22px;
+}
+
+.ebook-title .prin {
+  display: block;
+  padding-bottom: 5px;
+}
+
+
+#intro-text {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 25px 15px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; 
+ 
+}
+
+.cta-button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: aqua;
+  width: 30%;
+  cursor: pointer;
+}
+
+.social-proof {
+  margin: 30px;
+  border-radius: 30px;
+  color: black;
+}
+
+.icon-wrapper > img {
+  display: block; 
+  margin: 0 auto;
+  height: 60px;
+  padding-bottom: 10px;
+}
+
+.proof-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.proof-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+span {
+  color: aqua;
+  font-family: "Inter", sans-serif;
+}
+
+.ebook-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(0, 0, 0);
+}
+
+.ebook-text {
+  width: 500px;
+}
+
+.cta-button-final {
+  display: block;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.learning-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+}
+
+.depoimentos-section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.depoimentos-section h2 {
+  font-size: 2rem;
+  color: aqua;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.mySwiper {
+  width: 100%;
+  padding: 30px 0 60px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.03);
+}
+
+/* Botões e Paginação */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #056839;
+  transition: 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #03a65a;
+}
+
+.swiper-pagination-bullet {
+  background: #056839;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: #03a65a;
+  opacity: 1;
+}
+
+
+
+/* FAQ */
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #615f5f;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255); 
+}
+
+.faq-section details {
+  background: #305fce; 
+  color: #dceaff;    
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+
+.faq-section details[open] {
+  background: #2c3e70;
+}
+
+.faq-section summary {
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 25px;
+}
+
+.faq-section summary::after {
+  content: "▸";
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+  transition: transform 0.3s;
+}
+
+.faq-section details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.faq-section p {
+  margin-top: 10px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.guarantee-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 20px;
+  margin: 0 auto;
+  background-color: rgb(1, 175, 1);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.guarantee-text > h2 {
+  padding-bottom: 10px;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f7f2f0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  
+}
+
+.timer {
+  font-size: 32px;
+  font-weight: bold;
+  color: #d9534f;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 18px;
+}
+
+.new-price {
+  font-size: 22px;
+  color: #000000;
+  display: block;
+}
+
+.cta-button {
+  background-color: #02640f;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2b7401;
+}
+

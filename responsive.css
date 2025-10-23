@@ -1,0 +1,214 @@
+/* ========================= */
+/* RESPONSIVIDADE GERAL */
+/* ========================= */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .hero-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  video {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .cta-button {
+    width: 60%;
+  }
+
+  .proof-cards {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .ebook-section,
+  .learning-section,
+  .guarantee-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ebook-text,
+  .learning-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .ebook-image img,
+  .learning-image img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .guarantee-logo img {
+    width: 180px;
+  }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 14px;
+  }
+
+  #main-title {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  #intro-text {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .hero-section {
+    padding: 15px;
+  }
+
+  .cta-button {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .proof-cards {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .proof-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .ebook-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .ebook-image img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .ebook-text {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .cta-button-final {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .learning-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .learning-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .learning-image img {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .guarantee-section {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .guarantee-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .guarantee-text p {
+    font-size: 0.95rem;
+  }
+
+  .depoimentos-section {
+    padding: 0 10px;
+  }
+
+  .swiper-slide img {
+    max-width: 85%;
+  }
+
+  .faq-section {
+    padding: 20px 15px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .timer {
+    font-size: 26px;
+  }
+
+  .price .new-price {
+    font-size: 20px;
+  }
+
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
+  #main-title {
+    font-size: 1rem;
+  }
+
+  #intro-text {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .ebook-title {
+    font-size: 1rem;
+  }
+
+  .learning-content p {
+    font-size: 0.9rem;
+  }
+
+  .faq-section summary {
+    font-size: 1rem;
+  }
+
+  .container h1 {
+    font-size: 1.2rem;
+  }
+
+  .container p {
+    font-size: 0.95rem;
+  }
+
+  .timer {
+    font-size: 22px;
+  }
+
+  .new-price {
+    font-size: 18px;
+  }
+}
